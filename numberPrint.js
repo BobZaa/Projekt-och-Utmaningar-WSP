@@ -1,0 +1,3 @@
+console.log(110110101010101001)
+console.log(110110101010101001)
+console.log(1011112)
