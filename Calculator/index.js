@@ -1,7 +1,7 @@
-var server  = require("express")
-var app     = server()
+let server  = require("express")
+let app     = server()
 
-var bodyParser = require("body-parser")
+let bodyParser = require("body-parser")
 app.use(bodyParser.urlencoded({extended:true}))
 
 app.get("/", function(req,res) {
